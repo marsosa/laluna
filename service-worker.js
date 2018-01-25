@@ -1,6 +1,6 @@
+var cacheName = "lunacache";
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    var cacheName = "lunacache";
     caches.open(cacheName).then(function(cache) {
       return cache.addAll(
         [
