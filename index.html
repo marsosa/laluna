@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>La Luna Eventos</title>
+<link rel="manifest" href="/manifest.json">
+</head>
+<body bgcolor="#082f7e">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.11&appId=403299303041937&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<center>
+<img src="lalunalogo.png" />
+<br />
+<audio controls="controls"><source src="http://138.118.48.26:8010/;audio" type="audio/mpeg" /></audio>
+<br />
+<br />
+<br />
+<div class="fb-page" data-href="https://www.facebook.com/laluna.eventos.3" data-tabs="timeline" data-width="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
+<br />
+</center>
+</body>
+<script>
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
+</html>
