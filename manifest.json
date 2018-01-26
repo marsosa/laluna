@@ -9,7 +9,8 @@
     }
   ],
   "background_color": "#082F7E",
+  "theme_color":	"#7a7474",
   "display": "standalone",
-  "scope_url": "http://marsosa.github.io/laluna/",
-  "start_url": "http://marsosa.github.io/laluna/"
+  "scope_url": "/",
+  "start_url": "/",
 }
